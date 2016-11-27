@@ -1,0 +1,57 @@
+* {
+    margin: 0px;
+}
+body{
+    height: 100%;
+	font:18px 'Helvetica';
+    background-image: url('aplets/Home.jpg');
+    background-size: cover;       /* For flexibility */
+}
+header{
+	background-color: #fff;
+    position: fixed;
+    opacity: 0.5;
+    height: 6%;
+    width: 100%;
+    z-index: 100;}/*
+    header > * {
+        padding: 1.5%;}*/
+        header > ul > li {
+	        display:inline-block;}
+            header > ul > li > a {
+                user-select:none;
+                text-decoration: none;
+                color:#000;
+                padding: 5px; }
+                header > ul > li > a:hover {
+                    background-color:#6fb337;}
+        #Login {
+            position: absolute; /*or fixed*/
+            float: right;
+            right: 1%; }
+            #Login:hover {
+                background-color:#6fb337; }
+.textField {
+    padding: 5px;
+}
+#section {
+	height: 100%;
+	margin-top: 5.5%;
+	overflow: hidden;
+	position: fixed;
+    text-align: center;
+	width: 100%;}
+	#section > * {
+        width:100%;
+        height:100%;
+        text-align: center;
+        overflow:auto;}
+		#section > * > * {
+			vertical-align: top; }
+#footer {
+    background-color: lightgray;
+    position: fixed;
+    bottom: 0%;
+    height: 10%;
+    width: 100%;
+}
